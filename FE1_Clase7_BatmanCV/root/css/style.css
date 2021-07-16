@@ -1,0 +1,109 @@
+header {
+    background-color: #E5E5E5;
+}
+
+.recuadro_sup_img  {
+    background-color: #E5E5E5;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header1 {
+    color: #005677;    
+    background-color: #C4C4C4;
+    letter-spacing: 8px;
+    word-spacing: 24px;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 120%;
+}
+
+.header2 {
+    color: #005677;    
+    background-color: #C4C4C4;
+    background-size: 26px; /* revisar para darle margen entre background y la letra */
+    letter-spacing: 4px;
+    word-spacing: 12px;
+    text-transform: uppercase;
+    text-indent: 20px;
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 150%;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.point {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.Italic {
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 15px;
+    line-height: 200%;
+}
+
+.numbers {
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 20%;
+}
+
+.debajo {
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    line-height: 100%;
+    margin-left: 100px;
+}
+
+.lateral {
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    line-height: 20%;
+    margin-left: 22px;
+}
+
+.blank_space {
+    line-height: 1000%;
+}
+
+.foot1  {
+    background-color: #005677;
+    display: block;
+    background-position: center;
+    background-size: cover;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 150%;
+    margin-right: 20px;
+}
+
+.foot2 {
+    background-color: #005677;
+    background-position: center;
+    background-size: cover;
+    line-height: 100%;
+    height: 8%;
+    width: 8%;
+    margin-left: 20px;
+}
