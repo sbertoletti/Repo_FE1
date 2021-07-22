@@ -1,0 +1,251 @@
+.caja-superior {
+    background-color: #1CD1B0;
+    background-size: cover;
+    /* position: absolute; */
+    /* width: 100%; no la declaro porque por defecto es 100% */
+    height: 38px;
+    box-sizing: border-box;
+    margin: 0px;
+    border: 0px;
+    padding: 10px;
+    z-index: 2;
+    
+    color: black;
+    font-family: 'Roboto', 'sans-serif';
+    font-size: 15px;
+    font-style: normal;
+    font-weight: normal;
+
+    /* text-align: left; */
+    /* text-decoration: none; */
+    /* text-transform: none; */
+
+    line-height: 23px; /* 8px más que el font-size para tener interlineado standard */
+}
+
+.caja-heroes {
+    /*BACK*/
+    background-color: #00669F;
+    background-size: cover;
+
+    /*BOX*/
+    /* position: absolute; */
+    /* width: 100%; no la declaro porque por defecto es 100% */
+    height: 101px;
+    box-sizing: border-box;
+    margin: 0px;
+    border: 0px;
+    padding: 28px;
+    box-shadow: 0px 1px 10px black;
+    z-index: 1;
+
+    /*FONT*/
+    color: black;
+    font-family: 'Roboto', 'sans-serif';
+    font-size: 40px;
+    font-style: normal;
+    font-weight: normal;
+
+    /*TEXT*/
+    /* text-align: left; */
+    /* text-decoration: none; */
+    /* text-transform: none; */
+    line-height: 48px; /* 8px más que el font-size para tener interlineado standard */
+}
+
+.contenedor1 {
+    /*BACK*/
+    background-color: white;
+    background-size: cover;
+
+    /*BOX*/
+    /* width: 100%; */
+    height: 1000px;
+    box-sizing: border-box;
+    /* box-shadow: 0px 5px 50px black; */
+    /* display: inline-block; */
+    /* border-radius: 10px, 10px, 0px, 0px;  */
+    margin: 180px 32px 180px 32px;
+    border: 0px;
+    padding: 0px;
+    z-index: 0;
+
+    /*FONT*/
+    color: black;
+    font-family: 'Roboto', 'sans-serif';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: normal;
+
+    /*TEXT*/
+    /* text-align: left; */
+    /* text-decoration: none; */
+    /* text-transform: none; */
+    line-height: 24px; /* 8px más que el font-size para tener interlineado standard */
+}
+
+.contenedor2 {
+    /*BACK*/
+    background-color: #F3F3F3;
+    background-size: cover;
+
+    /*BOX*/
+    width: 300px;
+    height: 550px;
+    box-sizing: border-box;
+    box-shadow: 0px 2px 10px black;
+    display: inline-block;
+    border-radius: 10px, 10px, 0px, 0px;
+    margin: 15px;
+    border: 10px;
+    padding: 0px;
+    z-index: 1;
+
+    /*FONT*/
+    color: black;
+    font-family: 'Roboto', 'sans-serif';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: normal;
+
+    /*TEXT*/
+    /* text-align: left; */
+    /* text-decoration: none; */
+    /* text-transform: none; */
+    line-height: 24px; /* 8px más que el font-size para tener interlineado standard */
+}
+
+h2 {
+    /*BOX*/
+    width: 300px;
+    height: 40px;
+    box-sizing: border-box;
+    margin: 0px 0px;
+    border: 0px;
+    padding: 0px 0px;
+    position: relative;
+    top: -60px;
+
+    color: black;
+    font-family: 'Roboto', 'sans-serif';
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 38px; /* 8px más que el font-size para tener interlineado standard */
+}
+
+.pic {
+    box-shadow: 5px 5px 20px black;
+    width: 120px;
+    height: 120px;
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    border-radius: 60px;
+
+    position: relative;
+    left: 90px;
+    bottom: 65px;
+    z-index: 3;
+}
+
+.back {
+    /* box-shadow: 5px 5px 20px black; */
+    width: 300px;
+    height: 190px;
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    border-radius: 10px, 10px, 0px, 0px;
+
+    position: relative;
+    left: center;
+    top: 100%;
+    z-index: 2;
+}
+
+.insideBox-txt {
+    /*BOX*/
+    width: 270px;
+    height: 115px;
+    position: relative;
+    top: -50px;
+    box-sizing: border-box;
+    margin: 0px 10px;
+    border: 0px;
+    padding: 0px 10px;
+    
+    /*FONT*/
+    color: black;
+    font-family: 'Roboto', 'sans-serif';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: normal;
+
+    /*TEXT*/
+    /* text-align: left; */
+    /* text-decoration: none; */
+    /* text-transform: none; */
+    line-height: 22px; /* 8px más que el font-size para tener interlineado standard */
+}
+
+.button1 {
+    /*BOX*/
+    box-sizing: border-box;
+    width: 130px;
+    height: 50px;
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+    position: relative;
+    left: 30%;
+    top: 50%;
+    content: center center;
+    box-shadow: 0px 2px 5px black;
+
+    /*FONT*/
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    line-height: 23px;
+
+    /*BACK*/
+    background-color: #00669F;
+}
+
+p {
+    font-family: 'Roboto', 'sans-serif';
+}
+
+.foot {
+/*BACK*/
+background-color: #00669F;
+background-size: cover;
+
+/*BOX*/
+/* position: absolute; */
+/* width: 100%; no la declaro porque por defecto es 100% */
+height: 51px;
+box-sizing: border-box;
+margin: 0px;
+border: 0px;
+padding: 0px 0px 0px 5px;
+/* box-shadow: 0px 10px 35px black; */
+
+/*FONT*/
+color: white;
+font-family: 'Roboto', 'sans-serif';
+font-size: 16px;
+font-style: normal;
+font-weight: normal;
+
+/*TEXT*/
+/* text-align: left; */
+/* text-decoration: none; */
+/* text-transform: none; */
+line-height: 51px; /* 8px más que el font-size para tener interlineado standard */
+}

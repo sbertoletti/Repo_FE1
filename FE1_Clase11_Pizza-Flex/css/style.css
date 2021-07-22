@@ -1,0 +1,233 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.header-padre{
+    width: cover;
+    height: 100px;
+    padding: 20px;
+    margin: 0px;
+    border: 0px;
+
+    background-color: #222222;
+
+    display: flex;
+    flex-direction: row;
+    align-content: flex-start;
+    justify-content: space-between;
+    box-shadow: 0px 2px 10px black;
+
+}
+
+.zona-logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+    .logo1 {
+        height: 90px;
+    }
+
+    .texto {
+        /*FONT*/
+        font-style: normal;
+        font-weight: 700;
+        font-family: 'Roboto', sans-serif;
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .pizza {
+        color: #39B24A;
+    }
+
+    .nd {
+        color: white;
+    }
+
+    .front {
+        color: #FC200C;
+    }
+
+.zona-nav {
+    /*FLEX*/
+    display: flex;
+    flex-direction: row;
+    align-content: flex-end;
+    justify-content: space-around;
+}
+
+    .items-nav {
+        /*FLEX*/
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-around;
+
+        /*FONT*/
+        color: white;
+        font-style: normal;
+        font-weight: normal;
+        font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+        line-height: 24px;
+        text-decoration: none;
+    }
+
+.cuerpo-central {
+    background-color: #E5E5E5;
+
+    /*BOX*/
+    width: cover;
+    box-sizing: border-box;
+    padding: 2%;
+    margin: 0;
+    
+    /*FLEX*/
+    display: flex;
+    justify-content: center;
+
+
+    }
+
+    .bloque-central-izq {
+        background-image: url('../img/Sin título-1.png');
+
+        /*BOX*/
+        width: 490px;
+        height: 350px;
+        box-sizing: border-box;
+        padding: 0;
+        margin: 1%;
+        border-radius: 2%;
+        box-shadow: 0px 2px 10px black;
+        
+        /*FLEX*/
+        display: flex;
+
+        }
+
+    .main-text {
+        position: relative;
+        top: 5%;
+        left: 5%;
+        z-index: 2;
+        
+        /*FONT*/
+        color: #FC200C;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: bold;
+        font-family: 'Roboto', sans-serif;
+        }
+
+        .detail-color {
+            /*FONT*/
+            color: #FFFFFF;
+            font-size: 28px;
+            font-style: normal;
+            font-weight: bold;
+            font-family: 'Roboto', sans-serif;
+        }
+
+    .bloque-central-der {
+        background-color: #FFFFFF;
+
+        /*BOX*/
+        width: 490px;
+        height: 350px;
+        box-sizing: border-box;
+        padding: 0;
+        margin: 1%;
+        border-radius: 2%;
+        box-shadow: 0px 2px 10px black;
+    }
+    
+    #podPiz {
+        text-align: center;
+        width: cover;
+    }
+
+.listado-pinito {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: flex-end;
+
+    position: relative;
+    top: 50px;
+
+    /*FONT*/
+    color: #222222;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    line-height: 24px;
+}
+
+#titulo-listado {
+    /*FONT*/
+    color: #222222;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    line-height: 60px;
+    text-align: center;
+}
+
+.pinito {
+    width: 92px;
+    height: 129px;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border-radius: 20%;
+
+    position: relative;
+    top: 35px;
+}
+
+.footer-madre{
+    width: cover;
+    height: cover;
+    padding: 20px;
+    margin: 0px;
+    border: 0px;
+
+    background-color: #222222;
+
+    display: flex;
+    flex-direction: row;
+    align-content: flex-end;
+    justify-content: space-between;
+    box-shadow: 0px 2px 10px black;
+
+}
+
+.zona-nav2 {
+    /*FLEX*/
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+
+    position: absolute;
+    left: 1%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
