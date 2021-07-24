@@ -1,0 +1,178 @@
+body {
+    background: #454545;
+    font-family:'Helvetica', sans-serif, 'Roboto';
+    color: white;
+}
+.banner {
+    position: center center;
+    width: 100%;
+    /* height: ; */
+    display: block;
+    z-index: 1;
+}
+
+.body {
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+#button1 {
+    box-sizing: border-box;
+    margin: 1px;
+
+    background-color: rgb(94, 94, 94);
+    color: #e36e00;
+    font-size: 16px;
+    font-family:'Helvetica', sans-serif, 'Roboto';
+    font-style: normal;
+    font-weight: lighter;
+    text-shadow: 1px 1px;
+    text-decoration: none;
+
+}
+
+.button2 {
+    /*POSITION*/
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+#link-sobreMi {
+    color: #e36e00;
+    text-decoration: none;
+}
+
+.titulo1 {
+    /*BACK*/
+    background-color: rgba (255,255,255,0.5);
+
+    /*TEXT*/
+    text-align: center;
+    letter-spacing: 4px;
+
+    /*POSITION*/
+    /* position: relative;
+    left: center;
+    top: -200px;
+    z-index: 2; */
+    /*FONT*/
+    color: #ffffff;
+    font-size: 36px;
+    font-family:'Helvetica', Neue, 'Roboto', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+    }
+
+.titulo2 {
+    /*BACK*/
+    background-color: rgba (255,255,255,0.5);
+
+    /*TEXT*/
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 8px;    
+    /*POSITION*/
+    /* position: relative;
+    left: center;
+    top: -200px;
+    z-index: 2; */
+    /*FONT*/
+    color: #e36e00;
+    font-size: 28px;
+    font-family:'Helvetica', Neue, 'Roboto', 'Gill Sans', 'Gill Sans MT';
+    font-style: normal;
+    font-weight: bold;
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+
+    /*BOX*/
+    box-shadow: 5px 5px 20px black;
+}
+
+/*SOBRE-MI*/
+
+.header3 {
+    /*BOX*/
+    box-sizing: border-box;
+    width: 100%;
+    height: 200px;
+    box-shadow: rgba(0, 0, 0, 0.5);
+    /*POSITION*/
+    /* position: relative;
+    bottom: 50px; */
+    /*BACK*/
+    background-image: url("../img/banner-sobre-mi.png");
+    background-size: 500px;
+    background-position-y: -20px;
+    background-position-x: 850px;
+    background-color: #2b2b2b;
+    background-repeat: no-repeat;
+}
+
+.buttonBack {
+    width: cover;
+    box-sizing: border-box;
+    border-radius: 2px;
+    margin: 1px;
+    padding: 1px;
+
+    background-color: #303030;
+
+    color: white;
+    font-family: 'Helvetica', 'Roboto', sans-serif;
+    font-size: 12px;
+    line-height: 20px;
+
+    text-decoration: none;
+}
+
+.CVSBE {
+    color: white;
+    font-family: 'Helvetica', 'Roboto', sans-serif;
+    font-size: 20px;
+    line-height: 20px;
+}
+
+#name {
+    color: #e36e00;
+    font-family: 'Helvetica', 'Roboto', sans-serif;
+    font-size: 40px;
+    line-height: 40px;
+}
+
+.list1 {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.list2 {
+    font-size: 20px;
+    line-height: 38px;
+}
+
+.foot {
+    width: cover;
+    height: 100px;
+    background-color: #303030;
+}
+
+.order {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    
+}
+
+.link1 {
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 16px;
+    line-height: 24px;
+
+    margin: 20px;
+    box-sizing: border-box;
+}
