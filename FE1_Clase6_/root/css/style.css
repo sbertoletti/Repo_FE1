@@ -1,0 +1,36 @@
+body {
+    background-color: white;
+}
+
+#primer-texto {
+    background-color: #222222;
+    background-size: cover;
+    position: absolute;
+    width: 138px;
+    height: 16px;
+    left: calc(50% - 138px/2 - 353px);
+    top: 4px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    /* identical to box height */
+    color: #F3F3F3;
+}
+
+h1 {
+    color: blue;
+}
+
+.titulo1 {
+    background: #222222;
+    
+}
+
+.cajas {
+    display: inline-block;
+    
+}
+
