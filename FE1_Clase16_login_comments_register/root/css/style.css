@@ -1,0 +1,269 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+    line-height: 18px;
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.first-line {
+    background-color: #1CD1B0;
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0.2rem;
+
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+}
+
+.second-line {
+    background-color: #00669F;
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.titulo {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+    font-size: 6rem;
+    line-height: 6rem;
+    color: white;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+.logo {
+    box-sizing: border-box;
+    margin: 1rem;
+    padding: 0;
+
+    height: 7rem;
+}
+
+.linea-con-navegador {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-shadow: 0px 2px 5px rgba(0,0,0,0.5);
+
+    background-color: #001D2D;
+
+    color: white;
+    font-size: 1.6rem;
+    line-height: 1.6rem;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+.nav1 {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    height: 4rem;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav2 {
+    box-sizing: border-box;
+    margin: 0.5rem;
+    padding: 0.5rem;
+}
+
+main {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 1rem;
+    width: cover;
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.flex-tarjetas {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 1rem;
+    width: cover;
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.tarjeta {
+    background-color: #F3F3F3;
+
+    box-sizing: border-box;
+    margin: 4rem;
+    padding: 0rem;
+    height: 54rem;
+    width: 30rem;
+    border-radius: 3rem 3rem 0rem 0rem;
+    box-shadow: 0px 2px 5px rgba(0,0,0,0.5);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fondo-tarjeta1 {
+    background-image: url(../img/batman-cave.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    width: 30rem;
+    height: 20rem;
+    border-radius: 3rem 3rem 0rem 0rem;
+}
+
+.fondo-tarjeta2 {
+    background-image: url(../img/quinn-back.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    width: 30rem;
+    height: 20rem;
+    border-radius: 3rem 3rem 0rem 0rem;
+
+    position: absolute;
+}
+
+.heroe-pic {
+    box-sizing: border-box;
+    width: 12rem;
+    height: 12rem;
+    padding: 0;
+    margin: 0;
+    box-shadow: 0px 2px 5px rgba(0,0,0,0.5);
+    border: 0.5rem solid #001D2D;
+    border-radius: 50%;
+
+    position: relative;
+    left: 9rem;
+    bottom: -13rem;
+    z-index: 3;
+}
+
+.tiny-heart {
+    box-sizing: border-box;
+    width: 3rem;
+    padding: 0;
+    margin: 1rem;
+
+    position: relative;
+    left: -40%;
+    bottom: 35%;
+    z-index: 3;
+}
+
+h3 {
+    text-transform: uppercase;
+    font-size: 3rem;
+    line-height: 3rem;
+}
+
+.text-en-tarj {
+    box-sizing: border-box;
+    margin: 1rem;
+    padding: 1rem;
+
+    font-size: 1.2rem;
+    line-height: 1.2rem;
+}
+
+.ver-mas-button {
+    background-color: #00669F;
+
+    box-sizing: border-box;
+    margin: 1rem;
+    padding: 2rem;
+    border-radius: 5%;
+    border-style: none;
+    width: 13rem;
+    height: 5rem;
+
+    color: white;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-mas {
+    background-color: #00669F;
+
+    box-sizing: border-box;
+    margin: 1rem;
+    padding: 2rem;
+    border-radius: 50%;
+    border-style: none;
+    width: 8rem;
+    height: 8rem;
+    box-shadow: 0px 2px 5px rgba(0,0,0,0.5);
+
+    color: white;
+    font-size: 6rem;
+    line-height: 6rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foot {
+    background-color: #00669F;
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 2.5rem;
+
+    color: white;
+    font-size: 1rem;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.foot-card {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+
+}

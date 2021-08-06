@@ -1,0 +1,219 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+    line-height: 18px;
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.first-line {
+    background-color: #1CD1B0;
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0.2rem;
+
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+}
+
+.second-line {
+    background-color: #00669F;
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.titulo {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+    font-size: 6rem;
+    line-height: 6rem;
+    color: white;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+.back {
+    background-image: url(../img/bg\ 1.png);
+    background-repeat: no-repeat;
+    
+    box-sizing: border-box;
+    margin: 0;
+    padding: 1rem;
+    height: fit-content;
+}
+
+.flex-tarjetas2 {
+    box-sizing: border-box;
+    margin: 6rem;
+    padding: 2rem;
+    width: cover;
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.tarjeta {
+    background-color: #F3F3F3;
+
+    box-sizing: border-box;
+    margin: 4rem;
+    padding: 0rem;
+    height: 40rem;
+    width: 55rem;
+    border-radius: 5rem 5rem 0 0;
+    box-shadow: 0px 2px 5px rgba(0,0,0,0.5);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.heroe-pic {
+    box-sizing: border-box;
+    width: 12rem;
+    height: 12rem;
+    padding: 0;
+    margin: 0;
+    box-shadow: 0px 2px 5px rgba(0,0,0,0.5);
+    border: 0.2rem solid #001D2D;
+    border-radius: 50%;
+
+    position: relative;
+    left: 1rem;
+    top: -6rem;
+    z-index: 3;
+}
+
+.tiny-heart {
+    box-sizing: border-box;
+    width: 3rem;
+    padding: 0;
+    margin: 3rem;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    align-self: flex-start;
+
+    position: relative;
+    bottom: 7rem;
+}
+
+h3 {
+    font-size: 3rem;
+    line-height: 3rem;
+    text-decoration: underline;
+    color: #2C0187;
+
+    position: relative;
+    bottom: 11rem;
+}
+
+.text-en-tarj {
+    box-sizing: border-box;
+    margin: 1rem;
+    padding: 2rem;
+
+    font-size: 1.2rem;
+    line-height: 2rem;
+
+    position: relative;
+    bottom: 11rem;
+}
+
+.destacado1 {
+    color: #2C0187;
+    font-size: 1.2rem;
+    line-height: 2rem;
+}
+
+.destacado2 {
+    color: #2C0187;
+    font-size: 1.2rem;
+    line-height: 2rem;
+    font-style: italic;
+}
+
+.flex-icons {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.icons {
+    box-sizing: border-box;
+    margin: 1rem;
+    padding: 1rem;
+    width: 8rem;
+
+    position: relative;
+    bottom: 15rem;
+}
+
+.foot-card1 {
+    box-sizing: border-box;
+    width: 55rem;
+    height: 10rem;
+
+    border-radius: 0 0 5rem 5rem;
+
+    background-color: #2C0187;
+
+    margin: 0;
+    padding: 4rem;
+
+    position: relative;
+    bottom: 15rem;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.foot-card2 {
+    box-sizing: border-box;
+    width: cover;
+    margin: 0;
+    padding: 2rem;
+
+    color: white;
+    text-decoration: none;
+    font-size: 2rem;
+    line-height: 2rem;
+}
+
+.foot {
+    background-color: #00669F;
+
+    box-sizing: border-box;
+
+    color: white;
+    font-size: 1rem;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
