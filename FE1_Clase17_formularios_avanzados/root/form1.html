@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/style-form.css">
+        <!-- Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Karla&display=swap" rel="stylesheet">
+        <!-- Icons -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css">
+        <link rel="stylesheet" href="https://material.io/design/iconography/system-icons.html#design-principles">
+        <title>Tienda Tarjetas - FE1-Clase17 - Formulario</title>
+    </head>
+    <body>
+        <header>
+            <p>20% de descuento en todos los productos</p>
+            <section class="second-line">
+                <img src="img/logo-tienda-heroes.png" alt="logo" class="logo">
+                <h1>Nombre Tienda</h1>
+            </section>
+            <section class="linea-con-navegador">
+                <nav>
+                    <ul type="none">
+                        <li>Contacto</li>
+                        <li>Registrarme</li>
+                        <li>Ingresar</li>
+                    </ul>
+                </nav>
+            </section>
+        </header>
+
+        <main>
+            <section>
+                <h3>Añadí tu Super!</h3>
+                <p>Agregá tu personaje favorito completando las opciones</p>
+                <div>
+                    <article class="flex-central">
+                        <form action="#" method="post" class="formulario">
+                            <span>*Nombre</span>
+                            <input type="text" name="Nombre" class="form-space">
+                            <br>
+                            <span>*Fecha</span>
+                            <input type="date" name="fecha" value="dd/mm/aaaa" min="1900-01-01" max="2021-08-06" class="form-space">
+                            <br>
+                            <textarea name="comentario" class="form-space2" placeholder="Descripción"></textarea>
+                        </form>
+                    </article>
+                    <article class="flex-central">
+                        <form action="#" method="post" class="formulario">
+                            <span>*Especie</span>
+                            <select name="Especie" placeholder="Especie" class="form-space">
+                                <option value="Especie">(Especie)</option>
+                            </select>
+                            <br>
+                            <span>Agregar Foto</span>
+                            <div>
+                                <input type="file" name="foto" accept=".jpeg, .jpg, .png" class="file-box">
+                            </div>
+                            <span>Poderes</span>
+                                <div class="check1"> 
+                                <p class="check2"><label class="check3"><input type="checkbox" name="poderes" value="Volar" class="check4">Volar</label></p>
+                                <p class="check2"><label class="check3"><input type="checkbox" name="poderes" value="Superinteligencia" class="check4">Superinteligencia</label></p>
+                                <p class="check2"><label class="check3"><input type="checkbox" name="poderes" value="Vista de rayo láser" class="check4">Vista de rayo láser</label></p>
+                                <p class="check2"><label class="check3"><input type="checkbox" name="poderes" value="Billetera gorda" class="check4">Billetera gorda</label></p>
+                            </div>
+                            <p><hr class="line"></p>
+                            <span>Tipo de personaje</span>
+                            <!-- acá va formulario avanzado-->
+                                <p class="check2"><label class="check3"><input type="radio" name="tipo" value="Héroe / Heroína" class="check4">Héroe / Heroína</label></p>
+                                <p class="check2"><label class="check3"><input type="radio" name="tipo" value="Villano / Villana" class="check4">Villano / Villana</label></p>
+                        </form>
+                    </article>
+                </div>
+                <button type="submit">Añadir</button>
+            </section>
+        </main>
+
+        <footer class="foot">
+            <p>Todos los derechos reservados a FRONT END 1</p>
+        </footer>
+    </body>
+</html>

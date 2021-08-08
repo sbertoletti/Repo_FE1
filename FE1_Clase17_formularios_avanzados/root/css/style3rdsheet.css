@@ -1,0 +1,249 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+    line-height: 18px;
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+    font-weight: normal;
+}
+
+.first-line {
+    background-color: #1CD1B0;
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0.2rem;
+
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+}
+
+.second-line {
+    background-color: #00669F;
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.titulo {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+    font-size: 6rem;
+    line-height: 6rem;
+    color: white;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+.logo {
+    box-sizing: border-box;
+    margin: 1rem;
+    padding: 0;
+
+    height: 7rem;
+}
+
+.flex-main {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 4rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.flex-section {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 2rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.login {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 2rem;
+
+    font-size: 7.2rem;
+    line-height: 7.2rem;
+    font-weight: bold;
+    font-family: 'Inter';
+
+    display: flex;
+    align-self: flex-start;
+
+}
+
+.formulario {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 2rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.form-space {
+    box-sizing: border-box;
+    margin: 1rem 0 1rem 0;
+    padding: 2rem;
+    height: 6rem;
+    width: 62rem;
+    border-style: solid;
+    border-color: grey;
+
+    font-size: 2rem;
+    line-height: 2rem;
+
+}
+
+.form-space2 {
+    box-sizing: border-box;
+    margin: 1rem 0 1rem 0;
+    padding: 2rem;
+    height: 25rem;
+    width: 62rem;
+    border-style: solid;
+    border-color: grey;
+
+    font-size: 2rem;
+    line-height: 2rem;
+
+}
+
+.button-entrar {
+    box-sizing: border-box;
+    margin: 1rem 0rem 1rem 0rem;
+    padding: 2rem;
+    height: 6rem;
+    width: 62rem;
+    border-radius: 2.5rem;
+    border-style: none;
+
+    background-color: #1CD1B0;
+
+    text-decoration: none;
+    color: black;
+    font-size: 2.4rem;
+    font-family: 'Karla';
+    font-weight: bold;
+    line-height: 2.4rem;
+
+    text-align: center;
+}
+
+.button-reset {
+    box-sizing: border-box;
+    margin: 0rem 0rem 0rem 0rem;
+    padding: 2rem;
+    height: 6rem;
+    width: 30rem;
+    border-radius: 2.5rem;
+    border-style: none;
+
+    background-color: #888888;
+
+    text-decoration: none;
+    color: white;
+    font-size: 2.4rem;
+    font-family: 'Karla';
+    font-weight: bold;
+    line-height: 2.4rem;
+
+    text-align: center;
+}
+
+.button-register {
+    box-sizing: border-box;
+    margin: 0rem 0rem 0rem 0rem;
+    padding: 2rem;
+    height: 6rem;
+    width: 30rem;
+    border-radius: 2.5rem;
+    border-style: none;
+
+    background-color: #1CD1B0;
+
+    text-decoration: none;
+    color: black;
+    font-size: 2.4rem;
+    font-family: 'Karla';
+    font-weight: bold;
+    line-height: 2.4rem;
+
+    text-align: center;
+}
+
+.text-bottom {
+    box-sizing: border-box;
+    margin: 0.5rem;
+    padding: 0.5rem;
+
+    text-decoration: none;
+    color: #00669F;
+    font-family: 'Karla';
+    font-size: 2rem;
+    line-height: 2rem;
+
+    text-align: center;
+}
+
+.register-link {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+    text-decoration: none;
+    color: black;
+    font-family: 'Karla';
+    font-size: 2rem;
+    line-height: 2rem;
+
+}
+
+.foot {
+    background-color: #00669F;
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 2.5rem;
+
+    color: white;
+    font-size: 1rem;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-botones {
+    box-sizing: border-box;
+    margin: 1rem;
+    padding: 0;
+    width: 62rem;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}

@@ -1,0 +1,334 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+    line-height: 18px;
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header p {
+    background-color: #1CD1B0;
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0.2rem;
+
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+}
+
+.second-line {
+    background-color: #00669F;
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+header section h1 {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+    font-size: 6rem;
+    line-height: 6rem;
+    color: white;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+header section img {
+    box-sizing: border-box;
+    margin: 1rem;
+    padding: 0;
+
+    height: 7rem;
+}
+
+.linea-con-navegador {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-shadow: 0px 2px 5px rgba(0,0,0,0.5);
+
+    background-color: #001D2D;
+
+    color: white;
+    font-size: 1.6rem;
+    line-height: 1.6rem;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+header section nav ul {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    height: 4rem;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header section nav ul li{
+    box-sizing: border-box;
+    margin: 0.5rem;
+    padding: 0.5rem;
+}
+
+main {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 2rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main section {
+    box-sizing: border-box;
+    margin: 1rem;
+    padding: 1rem;
+    height: 95rem;
+    width: 95rem;
+
+    background-color: #00669F;
+    border-radius: 5rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+main section div {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 1rem;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+main section article {
+    box-sizing: border-box;
+    margin: 1rem;
+    padding: 1rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+main h3 {
+    font-size: 4rem;
+    font-weight: 700;
+    font-family: 'Inter', sans-serif;
+    line-height: 4rem;
+    color: white;
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0.5rem;
+}
+
+main p {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 1rem;
+
+    font-size: 2rem;
+    font-weight: 300;
+    font-family: 'Inter', sans-serif;
+    line-height: 2rem;
+    color: white;
+}
+
+main section div span {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 1rem;
+
+    font-size: 2rem;
+    font-weight: 300;
+    font-family: 'Inter', sans-serif;
+    line-height: 2rem;
+    color: white;
+}
+
+.formulario {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 1rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.form-space {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 1rem;
+    height: 6rem;
+    width: 35rem;
+    border-style: solid;
+    border-color: grey;
+    border-radius: 2rem;
+
+    font-size: 2rem;
+    line-height: 2rem;s
+}
+
+main section div form textarea {
+    box-sizing: border-box;
+    margin: 3rem 0 0 0;
+    padding: 1rem;
+    height: 31rem;
+    width: 35rem;
+    border-style: solid;
+    border-color: grey;
+    border-radius: 2rem;
+
+    font-size: 2rem;
+    line-height: 2rem;
+}
+
+.file-box {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 1rem;
+    height: 3rem;
+    width: 23rem;
+
+    color: black;
+    font-size: 2rem;
+    line-height: 2rem;
+}
+
+.check1 {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    font-size: 1.6rem;
+    line-height: 1.6rem;
+    color: white;
+    font-family: 'Inter';
+}
+
+.check2 {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.check3 {
+    box-sizing: border-box;
+    margin: 1rem;
+    padding: 0;
+    
+    font-size: 1.6rem;
+    line-height: 1.6rem;
+    color: white;
+    font-family: 'Inter';
+}
+
+.check4 {
+    box-sizing: border-box;
+    margin: 1rem;
+    padding: 1rem;
+    
+    font-size: 1.6rem;
+    line-height: 1.6rem;
+    color: white;
+    font-family: 'Inter';
+}
+
+.line {
+    box-sizing: border-box;
+    width: 35rem;
+}
+
+.archive-button {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 1rem;
+    height: 3rem;
+    width: 22rem;
+
+    background-color: #CECECE;
+    border-radius: 0.5rem;
+    border-style: none;
+
+    text-align: left;
+
+}
+
+.tiny-text {
+    font-family: 'Inter';
+    font-weight: 300;
+    font-size: 1rem;
+    line-height: 1rem;
+    text-align: center;
+    color: black;
+}
+
+main section button {
+    box-sizing: border-box;
+    margin: 1rem;
+    padding: 1rem;
+    width: 46rem;
+    height: 9rem;
+
+    background-color: #1CD1B0;
+    border-radius: 1rem;
+    border-style: none;
+
+    font-size: 4rem;
+    line-height: 4rem;
+    font-weight: bold;
+    color: black;
+}
+.foot {
+    background-color: #00669F;
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 2.5rem;
+
+    color: white;
+    font-size: 1rem;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
