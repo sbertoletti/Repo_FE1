@@ -402,7 +402,19 @@ h6 {
 }
 
 @media mobile (max-width: 460px) {
-    
+    .head-black {
+        display: none;
+    }
+
+    .head-orange .nav3 {
+        display: none;
+    }
+
+    body header div i {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 1rem;
+    }
 }
 
 @media tablets (max-width: 770px) {
