@@ -1,0 +1,493 @@
+* {
+    font-size: 10px;
+    line-height: 18px;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+/* Header */
+
+header {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 1rem;
+    height: 9rem;
+    width: cover;
+
+    background-color: #222222;
+    color: white;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.logo {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 1rem;
+    width: 18rem;
+
+}
+
+body header section {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 1rem;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+body header section nav ul {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 1rem;
+    color: white;
+    font-weight: bold;
+    font-size: 1.6rem;
+    line-height: 1.6rem;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+body header section nav ul li{
+    box-sizing: border-box;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+body header section nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    line-height: 1.6rem;
+    font-size: 1.6rem;
+}
+
+    .MenuIcon {
+        display: none;
+    }
+
+    .CartIcon {
+        display: flex;
+
+        box-sizing: border-box;
+        margin: 1rem;
+        padding: 1rem;
+
+        color: #D01418;
+        text-decoration: none;
+        font-size: 3.5rem;
+    }
+
+/* Body / Main / News */
+body main {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    width: cover;
+    height: 52rem;
+    
+    background-color: #ededed;
+
+}
+
+body main section {
+    background-color: #ededed;
+}
+
+    .mainBanner {
+        background-image: url(../img/img\ 1.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        width: 100vw;
+        height: 52rem;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+
+}
+
+    .NewsBox1 {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0.5rem;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-end;
+        flex-wrap: wrap;
+    }
+
+
+    .NewsBox2 {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0.5rem;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-start;
+        flex-wrap: wrap;
+    }
+
+    .red {
+        color: #D01418;
+        font-size: 4rem;
+        line-height: 4rem;
+        text-align: center;
+        font-weight: bold;
+    }
+
+    .title1 {
+        color: white;
+        font-size: 4rem;
+        line-height: 4rem;
+        text-align: center;
+        font-weight: bold;
+    }
+
+body main section div button {
+    box-sizing: border-box;
+    background-color: #D01418;
+    width: 22rem;
+    height: 6rem;
+    border-radius: 0.5rem;
+    border-style: none;
+    
+    color: #F3F3F3;
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+    font-weight: 500;
+}
+
+body main section button a{
+    box-sizing: border-box;
+    background-color: #D01418;
+    width: 22rem;
+    height: 6rem;
+    border-radius: 0.5rem;
+    
+    color: #F3F3F3;
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+/* Body / Main / Products */
+
+    .title2 {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 10rem 0 1rem 0;
+
+        color: #000000;
+        font-size: 2rem;
+        line-height: 2rem;
+        text-align: center;
+
+        background-color: #ededed;
+    }
+
+    .productSection {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0 30rem;
+        background-color: #ededed;
+
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .ProductBox {
+        box-sizing: border-box;
+        margin: 1rem;
+        padding: 1rem;
+        width: 27rem;
+        height: 32rem;
+        background-color: #FFFFFF;
+        border-radius: 1rem;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .productoPic {
+        box-sizing: border-box;
+        margin: 1rem;
+        padding: 1rem;
+        width: 13rem;
+        height: auto;
+    }
+
+    .productInfo {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 1rem;
+        border-top: 0.1rem solid grey;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: flex-start;
+    }
+
+    .Price {
+        font-size: 2rem;
+        line-height: 2rem;
+        color: #000000;
+
+        box-sizing: border-box;
+        padding: 0.8rem 0rem;
+        
+    }
+
+    .Finan {
+        font-size: 1.3rem;
+        line-height: 1.3rem;
+        color: #000000;
+
+        box-sizing: border-box;
+        padding: 0.4rem 0rem;
+    }
+
+    .Shipping {
+        font-size: 1rem;
+        line-height: 1rem;
+        color: #619D00;
+        
+        box-sizing: border-box;
+        padding: 0.2rem 0rem;
+    }
+
+
+/* Body / Main / Recommended */
+
+    .recomSection {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 10rem 40rem;
+
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .recom1 {
+        background-image: url(../img/banner\ 1.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        box-sizing: border-box;
+        width: 36rem;
+        height: 13rem;
+        border-radius: 1rem;
+
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    .recom2 {
+        background-image: url(../img/banner\ 1-2.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        box-sizing: border-box;
+        width: 36rem;
+        height: 13rem;
+        border-radius: 1rem;
+
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+
+    .preFooter {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 1rem;
+
+        background-color: #222222;
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .subRecom {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 1rem;
+
+        font-size: 2.5rem;
+        line-height: 2.5rem;
+        color: white;
+        text-align: center;
+
+    }
+
+    .rightBoxes {
+        box-sizing: border-box;
+        padding: 1rem;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .socialBox {
+        box-sizing: border-box;
+        margin: 1rem;
+        padding: 0;
+        
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .socialLogo {
+        box-sizing: border-box;
+        margin: 1rem;
+        padding: 0;
+        height: 8rem;
+    }
+
+.footer {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0.5rem;
+
+    color: black;
+    text-align: center;
+
+    background-color: #c4c4c4;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 720px) {
+    /* Mobile 480 - Tablet 720 */
+    /* Header */
+    header {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 1rem;
+        height: 9rem;
+
+        background-color: #222222;
+        color: white;
+    }
+
+    .MenuIcon {
+        display: flex;
+        box-sizing: border-box;
+        margin: 1rem;
+        padding: 1rem;
+
+        color: #F3F3F3;
+        text-decoration: none;
+        font-size: 3.5rem;
+    }
+
+    .CartIcon {
+        display: none;
+    }
+
+    .recom1 {
+        background-image: url(../img/banner\ 1.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        box-sizing: border-box;
+        width: 28rem;
+        height: 11rem;
+        
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    .recom2 {
+        background-image: url(../img/banner\ 1-2.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        box-sizing: border-box;
+        width: 28rem;
+        height: 11rem;
+        
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    .subRecom {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 1rem;
+
+        font-size: 1.5rem;
+        line-height: 1.5rem;
+        color: white;
+
+    }
+
+    .ProductBox {
+        box-sizing: border-box;
+        margin: 1rem;
+        padding: 1rem;
+        width: 24rem;
+        height: 32rem;
+        background-color: #FFFFFF;
+        border-radius: 0.5rem;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+}
