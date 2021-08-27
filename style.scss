@@ -1,0 +1,241 @@
+* {
+    font-family: 'Lato', sans-serif, 'Helvetica';
+    font-size: 10px;
+    line-height: 18px;
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+
+
+body {
+
+    header {
+
+        nav {
+
+            div {
+                box-sizing: border-box;
+                margin: 0.5rem;
+                padding: 0.5rem;
+
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+
+                color: white;
+                img {
+                    box-sizing: border-box;
+                    width: 10rem;
+                    margin: 0;
+                    padding: 0 2rem 0 1rem;
+
+                    border-left: 2px grey solid;
+                }    
+
+                h1 {
+                    font-family: 'Bebas Neue';
+                    font-size: 4rem;
+                    margin: 1rem 2rem 1rem 2rem;
+                    color: white;
+                }
+
+                span {
+                    font-size: 2rem;
+                    margin: 1rem;
+                    color: white;
+                    font-weight: normal;
+
+                    border-left: 2px grey solid;
+
+                    & b {
+                        font-size: 2rem;
+                        margin: 1rem;
+                        color: white;
+                    }
+                }
+            }
+        }
+    }
+
+    main {
+
+        section {
+            display: grid;
+            gap: 1rem;
+            grid-auto-rows: 40rem;
+            grid-template-columns: repeat(auto-fill, minmax(30rem, 1fr));
+            
+            a{
+                text-decoration: none;
+                color: black;
+
+                article {
+                    box-sizing: border-box;
+                    margin: 0.5rem;
+                    padding: 0.5rem;
+
+                    height: 35rem;
+
+                    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+                    border-radius: 5rem;
+
+                    div {
+                        
+                    }
+                    img {
+                        box-sizing: border-box;
+                        width: 100%;
+                        height: auto;
+
+                    }
+            
+                    p {
+                        font-size: 1.5rem;
+                        line-height: 1.5rem;
+                        padding: 1rem 1rem 1rem 2rem;
+                        
+                    }
+                }
+            }
+        }
+    }
+}
+
+footer {
+    box-sizing: border-box;
+    padding: 1rem;
+    background-color: black;
+    color: white;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+}
+
+.first-lesson-pic {
+    background-image: url("../Repositorio_FE1_Camada7_NO_BORRAR/FE1_Clase1_Bienvenida/TP_Clase_1/Actividad_Clase_01.png");
+background-size: cover;
+height: 20rem;
+}
+
+.second-lesson-pic1 {
+    background-image: url("../Repositorio_FE1_Camada7_NO_BORRAR/FE1_Clase2_/TP_Clase_2/Grupo_14_-_Santiago_Bertoletti_Espejo.png");
+    background-size: cover;
+    height: 10rem;    
+}
+
+.second-lesson-pic2 {
+    background-image: url("../Repositorio_FE1_Camada7_NO_BORRAR/FE1_Clase2_/TP_Clase_2/Screen Shot 2021-07-01 at 15.47.48.png");
+    background-size: cover;
+    height: 10rem;    
+}
+
+.third-lesson-pic {
+    background-image: url("../Repositorio_FE1_Camada7_NO_BORRAR/FE1_Clase3_/TP_Clase_3/FrontEnd1_Camada7_Grupo14.png");
+    background-size: cover;
+    height: 20rem;    
+}
+
+.fourth-lesson-pic {
+    background-image: url("../Repositorio_FE1_Camada7_NO_BORRAR/FE1_Clase4_Introduccion a HTML/TP_Clase_4/unknown (1).png");
+    background-size: cover;
+    height: 20rem;    
+}
+
+.fifth-lesson-pic {
+    background-image: url("../Repositorio_FE1_Camada7_NO_BORRAR/FE1_Clase5_Etiquetas/TP_Clase_5/root/Screen Shot 2021-08-27 at 00.40.38.png");
+    background-size: cover;
+    height: 20rem;    
+}
+
+.sixth-lesson-pic {
+    background-image: url("../Repositorio_FE1_Camada7_NO_BORRAR/FE1_Clase6_/TP_Clase_6/root/Screen Shot 2021-08-27 at 00.44.11.png");
+    background-size: cover;
+    height: 20rem;    
+}
+
+.seventh-lesson-pic {
+    background-image: url("../Repositorio_FE1_Camada7_NO_BORRAR/FE1_Clase7_BatmanCV/TP_Clase_7/root/Screen Shot 2021-08-27 at 00.45.34.png");
+    background-size: cover;
+    height: 20rem;    
+}
+
+.eighth-lesson-pic {
+    background-image: url("../Repositorio_FE1_Camada7_NO_BORRAR/FE1_Clase8_MiCV/TP_Clase_8/root/Screen Shot 2021-08-27 at 00.47.38.png");
+    background-size: cover;
+    height: 20rem;    
+}
+
+.ninth-lesson-pic {
+    background-image: url("../Repositorio_FE1_Camada7_NO_BORRAR/FE1_Clase9 /TP_Clase_9/root/Screen Shot 2021-08-27 at 00.49.08.png");
+    background-size: cover;
+    height: 20rem;    
+}
+
+.tenth-lesson-pic {
+    background-image: url("../Repositorio_FE1_Camada7_NO_BORRAR/FE1_Clase10_HeroesPage/root/Screen Shot 2021-08-27 at 00.51.45.png");
+    background-size: cover;
+    height: 20rem;    
+}
+
+.eleventh-lesson-pic {
+    background-image: url("../Repositorio_FE1_Camada7_NO_BORRAR/FE1_Clase11_Pizza-Flex/Screen Shot 2021-07-22 at 02.14.28.png");
+    background-size: cover;
+    height: 20rem;    
+}
+
+.twelfth-lesson-pic {
+    background-image: url("../Repositorio_FE1_Camada7_NO_BORRAR/FE1_Clase12_ComidaPerros2/TP_Clase_12/root/Screen Shot 2021-08-27 at 00.54.46.png");
+    background-size: cover;
+    height: 20rem;    
+}
+
+.fourteenth-lesson-pic {
+    background-image: url("../Repositorio_FE1_Camada7_NO_BORRAR/FE1_Clase14_HeroesCards/root/Screen Shot 2021-08-27 at 00.56.36.png");
+    background-size: cover;
+    height: 20rem;    
+}
+
+.fifteenth-lesson-pic {
+    background-image: url("../Repositorio_FE1_Camada7_NO_BORRAR/FE1_Clase15_PetShop3/root/Screen Shot 2021-08-27 at 00.58.08.png");
+    background-size: cover;
+    height: 20rem;    
+}
+
+.sixteenth-lesson-pic {
+    background-image: url("../Repositorio_FE1_Camada7_NO_BORRAR/FE1_Clase16_login_comments_register/root/Screen Shot 2021-08-27 at 01.03.23.png");
+    background-size: cover;
+    height: 20rem;    
+}
+
+.seventeenth-lesson-pic {
+    background-image: url("../Repositorio_FE1_Camada7_NO_BORRAR/FE1_Clase17_formularios_avanzados/root/Screen Shot 2021-08-27 at 01.05.50.png");
+    background-size: cover;
+    height: 20rem;    
+}
+
+.eighteenth-lesson-pic {
+    background-image: url("../Repositorio_FE1_Camada7_NO_BORRAR/FE1_Clase18/Screen Shot 2021-08-27 at 01.09.11.png");
+    background-size: cover;
+    height: 20rem;    
+}
+
+.nineteenth-lesson-pic {
+    background-image: url("../Repositorio_FE1_Camada7_NO_BORRAR/FE1_Clase19/TP_Clase_19/root/Screen Shot 2021-08-27 at 01.13.27.png");
+    background-size: cover;
+    height: 20rem;    
+}
+
+.twentieth-lesson-pic {
+    background-image: url("../Repositorio_FE1_Camada7_NO_BORRAR/FE1_Clase20/root/Screen Shot 2021-08-27 at 01.15.33.png");
+    background-size: cover;
+    height: 20rem;    
+}
+
+.twentysecond-lesson-pic {
+    background-image: url("../Repositorio_FE1_Camada7_NO_BORRAR/FE1_Clase22_BatmanCV_con_SASS/TP_Clase_22/Screen Shot 2021-08-27 at 01.17.23.png);
+    background-size: cover;
+    height: 20rem;    
+}
